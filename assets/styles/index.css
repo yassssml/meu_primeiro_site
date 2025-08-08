@@ -14,30 +14,36 @@ body {
 }
 
 h1,p {
-    text-align: center;
-    font-family: "Bitcount";
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
 header {
-    background-color: rgb(235, 201, 213);
+    background-color: rgb(223, 187, 200);
     color: black;
     padding: 60px;
+    text-align: center;
 }
 
 main {
-    background-color: #e6e6e6;
+    background-color: rgb(255, 228, 238);
     flex: 1;  
-    padding-top: 48px;
-    padding-bottom: 48px;
-    padding-left: 38px;
-    padding-right: 38px;
+    padding: 48px 38px 48px 38px;
     width: 100%;
 }
+
+about-section {
+    display: block;
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+    
 
 #titulo-sobre-mim {
     font-size: 40px;
     width: 80%;
     background-color: #ffffff;
+    border-bottom: 2px solid rgb(223, 187, 200);
 }   
 
 .texto-sobre-mim {
