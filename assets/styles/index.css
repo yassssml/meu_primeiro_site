@@ -13,11 +13,11 @@ body {
   
 }
 
-h1,p {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+h3,h1 {
+    font-family:Bitcount;
 }
 header {
-    background-color: rgb(223, 187, 200);
+    background-color: rgb(255, 255, 255);
     color: black;
     padding: 60px;
     text-align: center;
@@ -36,6 +36,17 @@ about-section {
     width: 80%;
     margin: 0 auto;
     padding: 40px;
+    border-radius: 12px;
+    margin: 30px;
+}
+hobbies {
+    display: block;
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    margin: 30px;
 }
     
 
@@ -45,9 +56,37 @@ about-section {
     background-color: #ffffff;
     border-bottom: 2px solid rgb(223, 187, 200);
 }   
-
 .texto-sobre-mim {
     font-size: 30px;
     width: 80%;
     background-color: #ffffff;
+}
+
+#titulo-hobbies {
+    font-size: 40px;
+    border-bottom: 2px solid rgb(223, 187, 200);
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+
+li {
+    background-color: aliceblue;
+    padding: 12px;
+    border-left: 4px solid rgb(223, 187, 200);
+    font-size: 16px;
+    min-width: 250px;
+}
+
+li:hover {
+    background-color:  rgb(255, 245, 249);
+    transform: translateX(5px);
+    transition: all 0.3s ease;
 }
