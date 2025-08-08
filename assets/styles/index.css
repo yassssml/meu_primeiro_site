@@ -1,14 +1,47 @@
 /* Reset do CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Bungee&family=Russo+One&display=swap');
 * {
-    margin: 500;
-    padding : 0px;
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
 }
 
 h1,p {
     text-align: center;
+    font-family: "Bitcount";
 }
 
 header {
-    background-color: rgb(255, 185, 222);
-    color: aliceblue;
+    background-color: rgb(235, 201, 213);
+    color: black;
+    padding: 60px;
+}
+
+main {
+    background-color: #e6e6e6;
+    flex: 1;  
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 38px;
+    padding-right: 38px;
+    width: 100%;
+}
+
+#titulo-sobre-mim {
+    font-size: 40px;
+    width: 80%;
+    background-color: #ffffff;
+}   
+
+.texto-sobre-mim {
+    font-size: 30px;
+    width: 80%;
+    background-color: #ffffff;
 }
