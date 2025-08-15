@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+    width: 100%;
+}
+footer p {
+    font-size: 1rem;
+}@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 * {
     margin: 0;
     padding : 0;
@@ -132,8 +137,38 @@ footer {
     color: #000000;
     text-align: center;
     padding: 2rem;
-    width: 100%;
 }
-footer p {
-    font-size: 1rem;
-}
+
+@media (max-width: 768px) {
+    body {
+      padding: 0 1rem;
+    }
+  
+    header,
+    main,
+    footer {
+      padding: 20px !important;
+    }
+  
+    .about-section,
+    .hobbies,
+    .contact {
+      width: 100% !important;
+      padding: 20px !important;
+      margin: 0 auto 30px auto !important;
+    }
+  
+    ul {
+      flex-direction: column !important;
+      align-items: stretch !important;
+    }
+  
+    li {
+      min-width: unset !important;
+      width: 100% !important;
+    }
+  
+    a {
+      word-break: break-word;
+    }
+  }
