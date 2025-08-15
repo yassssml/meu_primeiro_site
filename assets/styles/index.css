@@ -12,7 +12,7 @@ body {
   
 }
 
-h3,h1,h2 {
+h3,h1,h2, footer p {
     font-family: MedievalSharp ,Arial, Helvetica, sans-serif;
 }
 header {
@@ -35,8 +35,8 @@ about-section {
     width: 80%;
     margin: 0 auto;
     padding: 40px;
-    border-radius: 12px;
-    margin: 30px;
+    border-radius: 25px;
+    margin-bottom: 30px;
 }
 hobbies {
     display: block;
@@ -44,10 +44,10 @@ hobbies {
     width: 80%;
     margin: 0 auto;
     padding: 40px;
-    border-radius: 12px;
-    margin: 30px;
+    border-radius: 25px;
+    margin-bottom: 30px;
 }
-    
+
 
 #titulo-sobre-mim {
     font-size: 40px;
@@ -96,8 +96,8 @@ contact {
     width: 80%;
     margin: 0 auto;
     padding: 40px;
-    border-radius: 12px;
-    margin: 30px;
+    border-radius: 25px;
+    margin-bottom: 30px;
 }
 
 contact h2 {
@@ -125,4 +125,15 @@ contact a:hover {
     color: #ffffff;
     transform: translateY(-2px);
     
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+footer p {
+    font-size: 1rem;
 }
