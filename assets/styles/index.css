@@ -1,5 +1,4 @@
-/* Reset do CSS*/
-@import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Bungee&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 * {
     margin: 0;
     padding : 0;
@@ -13,8 +12,8 @@ body {
   
 }
 
-h3,h1 {
-    font-family:Bitcount;
+h3,h1,h2 {
+    font-family: MedievalSharp ,Arial, Helvetica, sans-serif;
 }
 header {
     background-color: rgb(255, 255, 255);
@@ -89,4 +88,41 @@ li:hover {
     background-color:  rgb(255, 245, 249);
     transform: translateX(5px);
     transition: all 0.3s ease;
+}
+
+contact {
+    display: block;
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    margin: 30px;
+}
+
+contact h2 {
+    margin-bottom: 8px;
+    font-size: 30px;
+    text-align: center;
+}
+contact p {
+    text-align: center;
+    font-size: 22px;
+}
+contact a {
+    color: rgb(226, 105, 153);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid rgb(226, 105, 153);
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+contact a:hover {
+    background-color: #ffdded;
+    color: #ffffff;
+    transform: translateY(-2px);
+    
 }
